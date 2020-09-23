@@ -1,0 +1,57 @@
+//- index.pug
+doctype html
+html
+  head
+    title Anushka Dance Academy
+    style
+      include ../static/style.css
+  block content
+    nav#navbar.top
+      ul
+        div#logo
+            img(src="/static/imgs/img1.png")
+            h3 ADA
+        li #[a(href="/") Home]
+        li #[a(href="/") About]
+        li #[a(href="/") Services]
+        li #[a(href="/") Contact Us]
+
+  section#introSection
+    div  Welcome to Anushka Dance Academy
+    div.small Eat Sleep  Dance Repeat 
+  section#missionSection
+    h2 Our mission 
+    div.card
+      h3 Dance perfection
+      div.card-box
+        div.card-img
+          img(src="/static/imgs/img1.png") 
+        div.card-content
+          p This is the best dance academy of th universe.
+
+    div.card
+      h3 Dance the way u like 
+      div.card-box
+        div.card-img#img2
+          img(src="/static/imgs/img2.jpg") 
+        div.card-content
+          p This is the best dance academy of th universe. 
+    div.card
+      h3 Expert teaching
+      div.card-box
+        div.card-img
+          img(src="/static/imgs/img3.png") 
+        div.card-content
+          p This is the best dance academy of th universe.
+
+  section#sponsersSection
+    h2 Our Sponsers
+    div#sponsers
+      img(src="/static/imgs/bg7.png",alt="Sponsers img ",class="spImage") 
+      img(src="/static/imgs/bg8.png",alt="Sponsers img ",class="spImage") 
+      img(src="/static/imgs/bg9.jpg",alt="Sponsers img ",class="spImage") 
+      img(src="/static/imgs/bg7.png",alt="Sponsers img ",class="spImage") 
+  footer#footer
+    |Copyright @ 2020 AnushkaDanceAcademy.com | All rights  reserved       
+    script
+      include ../static/index.js       

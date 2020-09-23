@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+} 
+h1{
+    text-align: center;
+    margin: 12px;
+}
+
+.myInput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 12px 345px;
+    border: 5px solid black;
+    border-radius: 34px;
+    color:black;
+    background-color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+.btn{
+    align-items: center;
+    margin: -7px 701px;
+    padding: 5px 24px;
+    font-size: 25px;
+    border-radius: 23px;
+    color: white;
+    background-color: grey;
+   border: 3px solid black;
+}
+.container{
+    min-height: 100vh;
+    margin-top: 113px;  
+}

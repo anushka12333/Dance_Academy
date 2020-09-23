@@ -1,0 +1,23 @@
+//- layout.pug
+html
+  head
+    title Anushka Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar.top
+      ul
+        div#logo
+            img(src="/static/imgs/img1.png")
+            h3 ADA
+        li #[a(href="/") Home]
+        li #[a(href="/") About]
+        li #[a(href="/") Services]
+        li #[a(href="/contact") Contact Us]
+    
+    block content
+    block foot
+  footer#footer
+    |Copyright @ 2020 AnushkaDanceAcademy.com | All rights  reserved       
+    script
+      include ../static/index.js           
